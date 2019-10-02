@@ -10,6 +10,8 @@ import scrapy
 
 
 class ZaraItem(scrapy.Item):
-    define the fields for your item here like:
+    scrapy shell ./path/to/file.html
+    scrapy shell ../other/path/to/file.html
+    scrapy shell /absolute/path/to/file.html
     name = scrapy.Field()
     
